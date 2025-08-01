@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/floriscornel/teams-mcp/graph/badge.svg)](https://app.codecov.io/gh/floriscornel/teams-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub stars](https://img.shields.io/github/stars/floriscornel/teams-mcp.svg)](https://github.com/floriscornel/teams-mcp/stargazers)
+[![smithery badge](https://smithery.ai/badge/@doto-psh/teams-mcp-server)](https://smithery.ai/server/@doto-psh/teams-mcp-server)
 
 A Model Context Protocol (MCP) server that provides seamless integration with Microsoft Graph APIs, enabling AI assistants to interact with Microsoft Teams, users, and organizational data.
 
@@ -122,6 +123,15 @@ If `format` is not specified, the message will be sent as plain text.
 
 ## 📦 Installation
 
+### Installing via Smithery
+
+To install teams-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@doto-psh/teams-mcp-server):
+
+```bash
+npx -y @smithery/cli install @doto-psh/teams-mcp-server --client claude
+```
+
+### Installing Manually
 ```bash
 # Install dependencies
 npm install
